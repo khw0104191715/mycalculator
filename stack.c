@@ -3,8 +3,6 @@
 #include "stack.h"
 #include <string.h>
 
-printf("Hello, Git! I'm hyowon");
-
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
@@ -76,3 +74,4 @@ static void reallocate(Stack * stack)
 	stack->contents = tmp;
 }
 
+int main() { printf("Hello, Git! I'm Hyowon\n"); return 0; }
